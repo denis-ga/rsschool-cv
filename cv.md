@@ -5,7 +5,7 @@
 ## Contacts
 **Email**: denechka5@gmail.com<br>
 [<kbd>Github</kbd>](https://github.com/denis-ga)<br>
-<kbd>[LinkedIn](https://www.linkedin.com/in/dzianis-hareyeu-b0694121b)</kbd><br>
+[<kbd>LinkedIn</kbd>](https://www.linkedin.com/in/dzianis-hareyeu-b0694121b)<br>
 
 ## Education
 Sukhoi State Technical University of Gomel - Graduated 2013
