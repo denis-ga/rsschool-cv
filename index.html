@@ -101,9 +101,9 @@
                         <pre>
                             <code>
 const result = new Promise(
-(resolve, reject) => {
+(resolve, reject) =&gt; {
     pool.runTask(files,
-    (err, result)=> {
+    (err, result)=&gt; {
         if (err !== null) {
             return reject(err);
         }
