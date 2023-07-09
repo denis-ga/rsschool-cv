@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CV HTML Rsschool</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="burger-menu">
+                    <div class="burger"></div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                    <li><a href="#code-example">Code Example</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="resume-area">
+            <div class="profile">
+                <div class="profile-image">
+                    <figure>
+                        <img src="https://media.licdn.com/dms/image/C5603AQE39GfByd7Uuw/profile-displayphoto-shrink_800_800/0/1630489978384?e=1693440000&v=beta&t=BjEmxXBqihY0jYy3wObS_DExPjpjdo7qT4g5j7DsxXo" alt="Profile Photo">
+                        <figcaption>Profile Photo</figcaption>
+                    </figure>
+                </div>
+                <div class="profile-name">
+                    <h1>Dzianis Hareyeu</h1>
+                    <span>Junior Frontend Developer</span>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="left-column">
+                    <section id="contacts" class="contact">
+                        <h2>Contacts</h2>
+                        <ul>
+                            <li><strong>Email:</strong> denechka5@gmail.com</li>
+                            <li>
+                                <a href="https://github.com/denis-ga" target="_blank">Github</a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/dzianis-hareyeu-b0694121b" target="_blank">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section id="education" class="education">
+                        <h2>Education</h2>
+                        <p><strong>Sukhoi State Technical University of Gomel</strong></p>
+                        <p>Graduation: June 2013</p>
+                    </section>
+                    <section id="languages" class="languages">
+                        <h2>Languages</h2>
+                        <p>Russian - Native</p>
+                        <p>English - A2 ( B1 in process )</p>
+                    </section>
+                </div>
+                <div class="right-column">
+                    <section id="experience" class="experience">
+                        <h2>Work Experience</h2>
+                        <p><strong>Software Engineer</strong></p>
+                        <p>OJSC «BSW - management company of «BMC» holding»</p>
+                        <p>July 2013 to Juny 2021</p>
+                        <ul>
+                            <li>Designed, implemented, and maintained industrial control systems using Siemens PLC (Simatic) and HMI (Human Machine Interface).</li>
+                            <li>Developed PLC programs using ladder logic and structured text, ensuring reliable and efficient control of manufacturing processes.</li>
+                            <li>Collaborated with cross-functional teams to integrate industrial systems with MES (Manufacturing Execution Systems) and ERP (Enterprise Resource Planning) systems.</li>
+                            <li>Conducted troubleshooting and performed preventive maintenance to ensure optimal performance of industrial systems.</li>
+                        </ul>
+                        <p><strong>Software Developer</strong></p>
+                        <p>Nodes, UAB</p>
+                        <p>July 2021 to Present</p>
+                        <ul>
+                            <li>Designed and developed backend systems for web applications using C#, ASP.NET, and SQL Server.</li>
+                            <li>Implemented RESTful APIs to facilitate communication between frontend and backend components.</li>
+                            <li>Optimized database queries and improved overall system performance.</li>
+                            <li>Collaborated with frontend developers and product owners to gather requirements and deliver software projects.</li>
+                        </ul>
+                    </section>
+                    <section id="skills" class="skills">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>C#, .NET Framework, ASP.NET MVC, ASP.NET Web Forms</li>
+                            <li>SQL Server, Entity Framework, LINQ</li>
+                            <li>JavaScript</li>
+                            <li>Mobile test automation: Appium, Cucumber, Allure, WebdriverIO</li>
+                            <li>Version control systems: Git, GitHub</li>
+                            <li>Agile development methodologies</li>
+                            <li>Problem-solving and analytical thinking</li>
+                            <li>Strong teamwork and communication skills</li>
+                        </ul>
+                    </section>
+                    <section id="code-example" class="code-example">
+                        <h2>Code Example</h2>
+                        <pre>
+                            <code>
+const result = new Promise(
+(resolve, reject) =&gt; {
+    pool.runTask(files,
+    (err, result)=&gt; {
+        if (err !== null) {
+            return reject(err);
+        }
+        resolve(result);
+    });
+});
+                            </code>
+                        </pre>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer class="footer-area">
+            <ul class="horizontal-list">
+                <li>
+                    <span>2023</span>
+                </li>
+                <li>
+                    <a href="https://rs.school/js/" target="_blank"><img src="./img/rs_school_js.svg" alt="logo rsschool" width="100"></a>
+                </li>
+                <li>
+                    <a href="https://github.com/denis-ga" target="_blank"><img src="./img/GitHub-Mark-Light-64px.png" alt="logo github" width="40"></a>
+                </li>
+            </ul>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
